@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+
+    <form>
+        <label for="fname">First Name : </label>
+        <input type="text" name="fname" id="fname" required placeholder="Enter your name" readonly><br><br>
+
+        <label for="lname">Last Name : </label>
+        <input type="text" name="lname" id="lname"><br><br>
+
+        <label for="email">Email : </label>
+        <input type="email" name="email" id="email"><br><br>
+
+        <label for="pass">Password : </label>
+        <input type="password" name="pass" id="pass"> <br><br>
+
+        <label for="Gender">Gender : </label>
+
+        <label for="Male">Male : </label>
+        <input type="radio" name="gender" id="Male">
+
+        <label for="Female">Female : </label>
+        <input type="radio" name="gender" id="Female"><br><br>
+
+        <label for="Course">Course : </label>
+        <select name="Course" id="Course">
+
+            <option value="1">MERN</option>
+            <option value="2">MEAN</option>
+            <option value="3">IOS</option>
+            <option value="4">ANDROID</option>
+            <option value="5">UI/UX</option>
+
+        </select><br><br>
+
+        <label for="languages">Languages : </label>
+
+        <label for="C">C Programming</label>
+        <input type="checkbox" name="C" id="C">
+
+        <label for="Python">Python</label>
+        <input type="checkbox" name="Python" id="Python">
+
+        <label for="Java">Java</label>
+        <input type="checkbox" name="Java" id="Java"> <br><br>
+
+        <label for="about">About Yourself : </label>
+        <textarea name="about" id="about" rows="5" cols="30"></textarea><br><br>
+
+        <label for="DOB">DOB : </label>
+        <input type="date" name="DOB" id="DOB"><br><br>
+
+        <label for="phone">Phone : </label>
+        <input type="tel" name="phone" maxlength="10" id="phone"><br><br>
+
+        <label for="resume">Upload Resume : </label>
+        <input type="file" name="resume" id="resume" multiple>
+
+
+        <input style="background-color: black; padding: 10px; color: white; border-radius: 10px; border: none; box-shadow: 2px 2px 5px gray;" type="submit" value="Send">
+        <input style="background-color: black; padding: 10px; color: white; border-radius: 10px; border: none; box-shadow: 2px 2px 5px gray;" type="reset" value="Clear">
+
+    </form>
+</body>
+</html>
